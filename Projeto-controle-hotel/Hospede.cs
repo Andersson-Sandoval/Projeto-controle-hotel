@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Projeto_controle_hotel
 {
-    class Estudante
+    class Hospede
     {
         public string Nome { get; set; }
         public string Email { get; set; }
        
-        public Estudante(string nome, string email)
+        public Hospede(string nome, string email)
         {
             Nome = nome;
             Email = email;

@@ -1,19 +1,17 @@
 ﻿using System;
-
 namespace Projeto_controle_hotel
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Estudante[] vect = new Estudante[10];
+            Hospede[] vect = new Hospede[10];
             Console.WriteLine();
             Console.WriteLine(" Bem-vindo ao Hotel beira-mar!!! ");
             Console.WriteLine();
 
             Console.Write("Quantos quartos serão alugados? ");
             int n = int.Parse(Console.ReadLine());
-
 
             for (int i = 1; i <= n; i++)
             {
@@ -28,7 +26,7 @@ namespace Projeto_controle_hotel
                 Console.Write("Quarto: ");
                 int quarto = int.Parse(Console.ReadLine());
 
-                vect[quarto] = new Estudante(nome, email);
+                vect[quarto] = new Hospede(nome, email);
             }
 
             Console.WriteLine();
